@@ -36,6 +36,7 @@ public class BMITest extends BaseTest {
     @Test(description = "validate normal category BMI",dataProvider = "testData")
     void tc10(String age,String gender,String height,String weight, String expectedResult) {
         bmiPage.fillForm(age, gender, height, weight);
+        
         Assert.assertEquals(bmiPage.getResult(), expectedResult);
     }
 }
