@@ -1,4 +1,4 @@
-package utils;
+package base;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
@@ -41,3 +41,4 @@ public class JWTUtils {
         return jwtToken;
     }
 }
+
