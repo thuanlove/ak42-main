@@ -24,27 +24,27 @@ public class TestSuite2 {
 
     @Test
     void tc01(){
-        System.out.println( "tc01");
+        System.out.println( "tc 01");
     }
 
     @Test
     void tc02(){
-        System.out.printf("tc02");
+        System.out.printf("tc 02");
     }
 
     @Test
     void tc03(){
-        System.out.printf("tc03");
+        System.out.printf("tc 03");
     }
 
     @Test
     void tc04(){
-        System.out.printf("tc04");
+        System.out.printf("tc 04");
     }
 
     @Test
     void tc05(){
-        System.out.printf("tc05");
+        System.out.printf("tc 05");
     }
 
     @AfterMethod
